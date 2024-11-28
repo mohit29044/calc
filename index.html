@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4x4 Grid of Buttons</title>
+</head>
+
+<body class="h-screen bg-gray-200">
+    <div class="flex justify-center items-center h-full">
+        <div class="flex flex-col items-center">
+            <div id="display" class="w-96 p-4 mb-4 bg-white border border-gray-400 text-right text-2xl">
+                0
+            </div>
+            <div class="flex flex-wrap w-96">
+                <button
+                    class="w-1/4 p-4 bg-gray-300 border border-gray-400 hover:bg-gray-400 hover:text-white hover:shadow-lg transition-all duration-200">
+                    M+
+                </button>
+                <button
+                    class="w-1/4 p-4 bg-gray-300 border border-gray-400 hover:bg-gray-400 hover:text-white hover:shadow-lg transition-all duration-200">
+                    M-
+                </button>
+                <button
+                    class="w-1/4 p-4 bg-gray-300 border border-gray-400 hover:bg-gray-400 hover:text-white hover:shadow-lg transition-all duration-200">
+                    MC
+                </button>
+                <button
+                    class="w-1/4 p-4 bg-gray-300 border border-gray-400 hover:bg-gray-400 hover:text-white hover:shadow-lg transition-all duration-200">
+                    HC
+                </button>
+                <button
+                    class="w-1/4 p-4 bg-gray-300 border border-gray-400 hover:bg-gray-400 hover:text-white hover:shadow-lg transition-all duration-200">
+                    CE
+                </button>
+                <button
+                    class="w-1/4 p-4 bg-gray-300 border border-gray-400 hover:bg-gray-400 hover:text-white hover:shadow-lg transition-all duration-200">
+                    C
+                </button>
+                <button
+                    class="w-1/4 p-4 bg-gray-300 border border-gray-400 hover:bg-gray-400 hover:text-white hover:shadow-lg transition-all duration-200">
+                    .
+                </button>
+                <button
+                    class="w-1/4 p-4 bg-gray-300 border border-gray-400 hover:bg-gray-400 hover:text-white hover:shadow-lg transition-all duration-200">
+                    /
+                </button>
+                <button
+                    class="w-1/4 p-4 bg-gray-300 border border-gray-400 hover:bg-gray-400 hover:text-white hover:shadow-lg transition-all duration-200">
+                    7
+                </button>
+                <button
+                    class="w-1/4 p-4 bg-gray-300 border border-gray-400 hover:bg-gray-400 hover:text-white hover:shadow-lg transition-all duration-200">
+                    8
+                </button>
+                <button
+                    class="w-1/4 p-4 bg-gray-300 border border-gray-400 hover:bg-gray-400 hover:text-white hover:shadow-lg transition-all duration-200">
+                    9
+                </button>
+                <button
+                    class="w-1/4 p-4 bg-gray-300 border border-gray-400 hover:bg-gray-400 hover:text-white hover:shadow-lg transition-all duration-200">
+                    *
+                </button>
+                <button
+                    class="w-1/4 p-4 bg-gray-300 border border-gray-400 hover:bg-gray-400 hover:text-white hover:shadow-lg transition-all duration-200">
+                    4
+                </button>
+                <button
+                    class="w-1/4 p-4 bg-gray-300 border border-gray-400 hover:bg-gray-400 hover:text-white hover:shadow-lg transition-all duration-200">
+                    5
+                </button>
+                <button
+                    class="w-1/4 p-4 bg-gray-300 border border-gray-400 hover:bg-gray-400 hover:text-white hover:shadow-lg transition-all duration-200">
+                    6
+                </button>
+                <button
+                    class="w-1/4 p-4 bg-gray-300 border border-gray-400 hover:bg-gray-400 hover:text-white hover:shadow-lg transition-all duration-200">
+                    -
+                </button>
+                <button
+                    class="w-1/4 p-4 bg-gray-300 border border-gray-400 hover:bg-gray-400 hover:text-white hover:shadow-lg transition-all duration-200">
+                    1
+                </button>
+                <button
+                    class="w-1/4 p-4 bg-gray-300 border border-gray-400 hover:bg-gray-400 hover:text-white hover:shadow-lg transition-all duration-200">
+                    2
+                </button>
+                <button
+                    class="w-1/4 p-4 bg-gray-300 border border-gray-400 hover:bg-gray-400 hover:text-white hover:shadow-lg transition-all duration-200">
+                    3
+                </button>
+                <button
+                    class="w-1/4 p-4 bg-gray-300 border border-gray-400 hover:bg-gray-400 hover:text-white hover:shadow-lg transition-all duration-200">
+                    +
+                </button>
+                <button
+                    class="w-full p-4 bg-gray-300 border border-gray-400 hover:bg-gray-400 hover:text-white hover:shadow-lg transition-all duration-200">
+                    =
+                </button>
+            </div>
+            <div id="history"
+                class="w-96 p-4 mb-4 bg-white border border-gray-400 text-right text-2xl overflow-y-auto max-h-32">
+            </div>
+            <div id="memory"
+                class="w-96 p-4 mb-4 bg-white border border-gray-400 text-right text-2xl overflow-y-auto max-h-32">
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>
